@@ -18,7 +18,7 @@ public class Part4 {
             
             if (wordLow.contains("youtube.com")){
                 //verify if it is a link (contain http)
-                if (wordLow.contains("http://")){
+                if (wordLow.contains("http")){
                     //find start and end using index
                     int StartQuote = keyword.lastIndexOf("\"",pos);
                     int EndQuote = keyword.indexOf("\"",pos+1);
